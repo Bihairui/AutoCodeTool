@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F2D17352940793C00BC1BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D17342940793C00BC1BF3 /* main.m */; };
+		4F2D173E29407B1000BC1BF3 /* AutoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D173D29407B1000BC1BF3 /* AutoTool.m */; };
+		4F2D17412940989200BC1BF3 /* AutoToolCreatFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D17402940989200BC1BF3 /* AutoToolCreatFile.m */; };
+		4F2D17442940993000BC1BF3 /* AutoToolCreatCodeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D17432940993000BC1BF3 /* AutoToolCreatCodeLine.m */; };
+		4F2D174729409A6C00BC1BF3 /* AutoToolCreatViewCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D174629409A6C00BC1BF3 /* AutoToolCreatViewCode.m */; };
+		4F2D174E2940A19F00BC1BF3 /* AutoToolSetProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D174D2940A19F00BC1BF3 /* AutoToolSetProperty.m */; };
+		4F2D17512940A29100BC1BF3 /* AutoToolFactoryMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D174F2940A29100BC1BF3 /* AutoToolFactoryMethod.m */; };
+		4F2D17592940AE8100BC1BF3 /* FCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D17582940AE8100BC1BF3 /* FCFileManager.m */; };
+		4F775A8B2A4A8A7200D298C9 /* AutoToolViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775A8A2A4A8A7200D298C9 /* AutoToolViewModel.m */; };
+		4F775AA32A4A920C00D298C9 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775A902A4A920C00D298C9 /* MJPropertyType.m */; };
+		4F775AA42A4A920C00D298C9 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775A932A4A920C00D298C9 /* NSObject+MJKeyValue.m */; };
+		4F775AA52A4A920C00D298C9 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775A942A4A920C00D298C9 /* MJProperty.m */; };
+		4F775AA62A4A920C00D298C9 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775A962A4A920C00D298C9 /* NSObject+MJCoding.m */; };
+		4F775AA72A4A920C00D298C9 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775A982A4A920C00D298C9 /* MJExtensionConst.m */; };
+		4F775AA82A4A920C00D298C9 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775A992A4A920C00D298C9 /* NSObject+MJProperty.m */; };
+		4F775AA92A4A920C00D298C9 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775A9B2A4A920C00D298C9 /* NSObject+MJClass.m */; };
+		4F775AAA2A4A920C00D298C9 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775A9C2A4A920C00D298C9 /* NSString+MJExtension.m */; };
+		4F775AAB2A4A920C00D298C9 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775A9D2A4A920C00D298C9 /* MJPropertyKey.m */; };
+		4F775AAC2A4A920C00D298C9 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775AA22A4A920C00D298C9 /* MJFoundation.m */; };
+		4F775AAF2A4ABC9100D298C9 /* AutoToolUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775AAE2A4ABC9100D298C9 /* AutoToolUIView.m */; };
+		4F775AB42A4ABCDA00D298C9 /* AutoToolUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775AB32A4ABCDA00D298C9 /* AutoToolUILabel.m */; };
+		4F775AB72A4ABCE300D298C9 /* AutoToolUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775AB62A4ABCE300D298C9 /* AutoToolUIButton.m */; };
+		4F775ABA2A4ABCF100D298C9 /* AutoToolUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775AB92A4ABCF100D298C9 /* AutoToolUIImageView.m */; };
+		4F775ABD2A4ABCFE00D298C9 /* AutoToolUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775ABC2A4ABCFE00D298C9 /* AutoToolUITableView.m */; };
+		4F775AC02A4ABD0D00D298C9 /* AutoToolUICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775ABF2A4ABD0D00D298C9 /* AutoToolUICollectionView.m */; };
+		4F775AC42A4ABEF900D298C9 /* AutoToolColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775AC32A4ABEF900D298C9 /* AutoToolColor.m */; };
+		4F775AC72A4ABF0300D298C9 /* AutoToolFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775AC62A4ABF0300D298C9 /* AutoToolFont.m */; };
+		4F775ACE2A4ABF8200D298C9 /* AutoToolBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F775ACD2A4ABF8200D298C9 /* AutoToolBase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F2D172F2940793C00BC1BF3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F2D17312940793C00BC1BF3 /* AutoTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AutoTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2D17342940793C00BC1BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F2D173C29407B1000BC1BF3 /* AutoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoTool.h; sourceTree = "<group>"; };
+		4F2D173D29407B1000BC1BF3 /* AutoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoTool.m; sourceTree = "<group>"; };
+		4F2D173F2940989200BC1BF3 /* AutoToolCreatFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolCreatFile.h; sourceTree = "<group>"; };
+		4F2D17402940989200BC1BF3 /* AutoToolCreatFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolCreatFile.m; sourceTree = "<group>"; };
+		4F2D17422940993000BC1BF3 /* AutoToolCreatCodeLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolCreatCodeLine.h; sourceTree = "<group>"; };
+		4F2D17432940993000BC1BF3 /* AutoToolCreatCodeLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolCreatCodeLine.m; sourceTree = "<group>"; };
+		4F2D174529409A6C00BC1BF3 /* AutoToolCreatViewCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolCreatViewCode.h; sourceTree = "<group>"; };
+		4F2D174629409A6C00BC1BF3 /* AutoToolCreatViewCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolCreatViewCode.m; sourceTree = "<group>"; };
+		4F2D174C2940A19F00BC1BF3 /* AutoToolSetProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolSetProperty.h; sourceTree = "<group>"; };
+		4F2D174D2940A19F00BC1BF3 /* AutoToolSetProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolSetProperty.m; sourceTree = "<group>"; };
+		4F2D174F2940A29100BC1BF3 /* AutoToolFactoryMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoToolFactoryMethod.m; sourceTree = "<group>"; };
+		4F2D17502940A29100BC1BF3 /* AutoToolFactoryMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoToolFactoryMethod.h; sourceTree = "<group>"; };
+		4F2D17572940AE8100BC1BF3 /* FCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCFileManager.h; sourceTree = "<group>"; };
+		4F2D17582940AE8100BC1BF3 /* FCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCFileManager.m; sourceTree = "<group>"; };
+		4F775A892A4A8A7200D298C9 /* AutoToolViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolViewModel.h; sourceTree = "<group>"; };
+		4F775A8A2A4A8A7200D298C9 /* AutoToolViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolViewModel.m; sourceTree = "<group>"; };
+		4F775A8D2A4A920C00D298C9 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		4F775A8E2A4A920C00D298C9 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		4F775A8F2A4A920C00D298C9 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		4F775A902A4A920C00D298C9 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		4F775A912A4A920C00D298C9 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		4F775A922A4A920C00D298C9 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		4F775A932A4A920C00D298C9 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		4F775A942A4A920C00D298C9 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		4F775A952A4A920C00D298C9 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		4F775A962A4A920C00D298C9 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		4F775A972A4A920C00D298C9 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		4F775A982A4A920C00D298C9 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		4F775A992A4A920C00D298C9 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		4F775A9A2A4A920C00D298C9 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		4F775A9B2A4A920C00D298C9 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		4F775A9C2A4A920C00D298C9 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		4F775A9D2A4A920C00D298C9 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		4F775A9E2A4A920C00D298C9 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		4F775A9F2A4A920C00D298C9 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		4F775AA02A4A920C00D298C9 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		4F775AA12A4A920C00D298C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F775AA22A4A920C00D298C9 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		4F775AAD2A4ABC9100D298C9 /* AutoToolUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolUIView.h; sourceTree = "<group>"; };
+		4F775AAE2A4ABC9100D298C9 /* AutoToolUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolUIView.m; sourceTree = "<group>"; };
+		4F775AB22A4ABCDA00D298C9 /* AutoToolUILabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolUILabel.h; sourceTree = "<group>"; };
+		4F775AB32A4ABCDA00D298C9 /* AutoToolUILabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolUILabel.m; sourceTree = "<group>"; };
+		4F775AB52A4ABCE300D298C9 /* AutoToolUIButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolUIButton.h; sourceTree = "<group>"; };
+		4F775AB62A4ABCE300D298C9 /* AutoToolUIButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolUIButton.m; sourceTree = "<group>"; };
+		4F775AB82A4ABCF100D298C9 /* AutoToolUIImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolUIImageView.h; sourceTree = "<group>"; };
+		4F775AB92A4ABCF100D298C9 /* AutoToolUIImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolUIImageView.m; sourceTree = "<group>"; };
+		4F775ABB2A4ABCFE00D298C9 /* AutoToolUITableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolUITableView.h; sourceTree = "<group>"; };
+		4F775ABC2A4ABCFE00D298C9 /* AutoToolUITableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolUITableView.m; sourceTree = "<group>"; };
+		4F775ABE2A4ABD0D00D298C9 /* AutoToolUICollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolUICollectionView.h; sourceTree = "<group>"; };
+		4F775ABF2A4ABD0D00D298C9 /* AutoToolUICollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolUICollectionView.m; sourceTree = "<group>"; };
+		4F775AC22A4ABEF900D298C9 /* AutoToolColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolColor.h; sourceTree = "<group>"; };
+		4F775AC32A4ABEF900D298C9 /* AutoToolColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolColor.m; sourceTree = "<group>"; };
+		4F775AC52A4ABF0300D298C9 /* AutoToolFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolFont.h; sourceTree = "<group>"; };
+		4F775AC62A4ABF0300D298C9 /* AutoToolFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolFont.m; sourceTree = "<group>"; };
+		4F775AC82A4ABF1A00D298C9 /* AutoToolCustomerMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolCustomerMethod.h; sourceTree = "<group>"; };
+		4F775ACC2A4ABF8200D298C9 /* AutoToolBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolBase.h; sourceTree = "<group>"; };
+		4F775ACD2A4ABF8200D298C9 /* AutoToolBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoToolBase.m; sourceTree = "<group>"; };
+		4F775ACF2A4ACCDE00D298C9 /* AutoToolViewLazyMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoToolViewLazyMethod.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F2D172E2940793C00BC1BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F2D17282940793C00BC1BF3 = {
+			isa = PBXGroup;
+			children = (
+				4F2D17332940793C00BC1BF3 /* AutoTool */,
+				4F2D17322940793C00BC1BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F2D17322940793C00BC1BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D17312940793C00BC1BF3 /* AutoTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F2D17332940793C00BC1BF3 /* AutoTool */ = {
+			isa = PBXGroup;
+			children = (
+				4F775A8C2A4A920C00D298C9 /* MJExtension */,
+				4F2D17562940AE8100BC1BF3 /* FCFileManager */,
+				4F2D17342940793C00BC1BF3 /* main.m */,
+				4F2D173C29407B1000BC1BF3 /* AutoTool.h */,
+				4F2D173D29407B1000BC1BF3 /* AutoTool.m */,
+				4F775A892A4A8A7200D298C9 /* AutoToolViewModel.h */,
+				4F775A8A2A4A8A7200D298C9 /* AutoToolViewModel.m */,
+				4F775AB02A4ABCA200D298C9 /* viewloadCode */,
+				4F775AC12A4ABEB500D298C9 /* AutoToolCustomerMethod */,
+				4F775AB12A4ABCB800D298C9 /* old */,
+			);
+			path = AutoTool;
+			sourceTree = "<group>";
+		};
+		4F2D17562940AE8100BC1BF3 /* FCFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D17572940AE8100BC1BF3 /* FCFileManager.h */,
+				4F2D17582940AE8100BC1BF3 /* FCFileManager.m */,
+			);
+			path = FCFileManager;
+			sourceTree = "<group>";
+		};
+		4F775A8C2A4A920C00D298C9 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4F775A8D2A4A920C00D298C9 /* MJPropertyKey.h */,
+				4F775A8E2A4A920C00D298C9 /* NSObject+MJClass.h */,
+				4F775A8F2A4A920C00D298C9 /* NSString+MJExtension.h */,
+				4F775A902A4A920C00D298C9 /* MJPropertyType.m */,
+				4F775A912A4A920C00D298C9 /* NSObject+MJProperty.h */,
+				4F775A922A4A920C00D298C9 /* MJExtensionConst.h */,
+				4F775A932A4A920C00D298C9 /* NSObject+MJKeyValue.m */,
+				4F775A942A4A920C00D298C9 /* MJProperty.m */,
+				4F775A952A4A920C00D298C9 /* MJFoundation.h */,
+				4F775A962A4A920C00D298C9 /* NSObject+MJCoding.m */,
+				4F775A972A4A920C00D298C9 /* MJExtension.h */,
+				4F775A982A4A920C00D298C9 /* MJExtensionConst.m */,
+				4F775A992A4A920C00D298C9 /* NSObject+MJProperty.m */,
+				4F775A9A2A4A920C00D298C9 /* MJPropertyType.h */,
+				4F775A9B2A4A920C00D298C9 /* NSObject+MJClass.m */,
+				4F775A9C2A4A920C00D298C9 /* NSString+MJExtension.m */,
+				4F775A9D2A4A920C00D298C9 /* MJPropertyKey.m */,
+				4F775A9E2A4A920C00D298C9 /* MJProperty.h */,
+				4F775A9F2A4A920C00D298C9 /* NSObject+MJKeyValue.h */,
+				4F775AA02A4A920C00D298C9 /* NSObject+MJCoding.h */,
+				4F775AA12A4A920C00D298C9 /* Info.plist */,
+				4F775AA22A4A920C00D298C9 /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		4F775AB02A4ABCA200D298C9 /* viewloadCode */ = {
+			isa = PBXGroup;
+			children = (
+				4F775ACF2A4ACCDE00D298C9 /* AutoToolViewLazyMethod.h */,
+				4F775ACC2A4ABF8200D298C9 /* AutoToolBase.h */,
+				4F775ACD2A4ABF8200D298C9 /* AutoToolBase.m */,
+				4F775AAD2A4ABC9100D298C9 /* AutoToolUIView.h */,
+				4F775AAE2A4ABC9100D298C9 /* AutoToolUIView.m */,
+				4F775AB22A4ABCDA00D298C9 /* AutoToolUILabel.h */,
+				4F775AB32A4ABCDA00D298C9 /* AutoToolUILabel.m */,
+				4F775AB52A4ABCE300D298C9 /* AutoToolUIButton.h */,
+				4F775AB62A4ABCE300D298C9 /* AutoToolUIButton.m */,
+				4F775AB82A4ABCF100D298C9 /* AutoToolUIImageView.h */,
+				4F775AB92A4ABCF100D298C9 /* AutoToolUIImageView.m */,
+				4F775ABB2A4ABCFE00D298C9 /* AutoToolUITableView.h */,
+				4F775ABC2A4ABCFE00D298C9 /* AutoToolUITableView.m */,
+				4F775ABE2A4ABD0D00D298C9 /* AutoToolUICollectionView.h */,
+				4F775ABF2A4ABD0D00D298C9 /* AutoToolUICollectionView.m */,
+			);
+			path = viewloadCode;
+			sourceTree = "<group>";
+		};
+		4F775AB12A4ABCB800D298C9 /* old */ = {
+			isa = PBXGroup;
+			children = (
+				4F2D173F2940989200BC1BF3 /* AutoToolCreatFile.h */,
+				4F2D17402940989200BC1BF3 /* AutoToolCreatFile.m */,
+				4F2D17422940993000BC1BF3 /* AutoToolCreatCodeLine.h */,
+				4F2D17432940993000BC1BF3 /* AutoToolCreatCodeLine.m */,
+				4F2D174529409A6C00BC1BF3 /* AutoToolCreatViewCode.h */,
+				4F2D174629409A6C00BC1BF3 /* AutoToolCreatViewCode.m */,
+				4F2D174C2940A19F00BC1BF3 /* AutoToolSetProperty.h */,
+				4F2D174D2940A19F00BC1BF3 /* AutoToolSetProperty.m */,
+				4F2D17502940A29100BC1BF3 /* AutoToolFactoryMethod.h */,
+				4F2D174F2940A29100BC1BF3 /* AutoToolFactoryMethod.m */,
+			);
+			path = old;
+			sourceTree = "<group>";
+		};
+		4F775AC12A4ABEB500D298C9 /* AutoToolCustomerMethod */ = {
+			isa = PBXGroup;
+			children = (
+				4F775AC82A4ABF1A00D298C9 /* AutoToolCustomerMethod.h */,
+				4F775AC22A4ABEF900D298C9 /* AutoToolColor.h */,
+				4F775AC32A4ABEF900D298C9 /* AutoToolColor.m */,
+				4F775AC52A4ABF0300D298C9 /* AutoToolFont.h */,
+				4F775AC62A4ABF0300D298C9 /* AutoToolFont.m */,
+			);
+			path = AutoToolCustomerMethod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F2D17302940793C00BC1BF3 /* AutoTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F2D17382940793C00BC1BF3 /* Build configuration list for PBXNativeTarget "AutoTool" */;
+			buildPhases = (
+				4F2D172D2940793C00BC1BF3 /* Sources */,
+				4F2D172E2940793C00BC1BF3 /* Frameworks */,
+				4F2D172F2940793C00BC1BF3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoTool;
+			productName = AutoTool;
+			productReference = 4F2D17312940793C00BC1BF3 /* AutoTool */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F2D17292940793C00BC1BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					4F2D17302940793C00BC1BF3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F2D172C2940793C00BC1BF3 /* Build configuration list for PBXProject "AutoTool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F2D17282940793C00BC1BF3;
+			productRefGroup = 4F2D17322940793C00BC1BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F2D17302940793C00BC1BF3 /* AutoTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F2D172D2940793C00BC1BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F775AC72A4ABF0300D298C9 /* AutoToolFont.m in Sources */,
+				4F775AB72A4ABCE300D298C9 /* AutoToolUIButton.m in Sources */,
+				4F775AAC2A4A920C00D298C9 /* MJFoundation.m in Sources */,
+				4F2D174E2940A19F00BC1BF3 /* AutoToolSetProperty.m in Sources */,
+				4F2D17412940989200BC1BF3 /* AutoToolCreatFile.m in Sources */,
+				4F775AAF2A4ABC9100D298C9 /* AutoToolUIView.m in Sources */,
+				4F775AC02A4ABD0D00D298C9 /* AutoToolUICollectionView.m in Sources */,
+				4F775AA72A4A920C00D298C9 /* MJExtensionConst.m in Sources */,
+				4F2D173E29407B1000BC1BF3 /* AutoTool.m in Sources */,
+				4F2D17352940793C00BC1BF3 /* main.m in Sources */,
+				4F775AB42A4ABCDA00D298C9 /* AutoToolUILabel.m in Sources */,
+				4F775AA42A4A920C00D298C9 /* NSObject+MJKeyValue.m in Sources */,
+				4F2D17512940A29100BC1BF3 /* AutoToolFactoryMethod.m in Sources */,
+				4F775AA82A4A920C00D298C9 /* NSObject+MJProperty.m in Sources */,
+				4F775AA32A4A920C00D298C9 /* MJPropertyType.m in Sources */,
+				4F775AA62A4A920C00D298C9 /* NSObject+MJCoding.m in Sources */,
+				4F775AA52A4A920C00D298C9 /* MJProperty.m in Sources */,
+				4F775ABA2A4ABCF100D298C9 /* AutoToolUIImageView.m in Sources */,
+				4F775ABD2A4ABCFE00D298C9 /* AutoToolUITableView.m in Sources */,
+				4F775ACE2A4ABF8200D298C9 /* AutoToolBase.m in Sources */,
+				4F2D174729409A6C00BC1BF3 /* AutoToolCreatViewCode.m in Sources */,
+				4F2D17592940AE8100BC1BF3 /* FCFileManager.m in Sources */,
+				4F775AAB2A4A920C00D298C9 /* MJPropertyKey.m in Sources */,
+				4F775AA92A4A920C00D298C9 /* NSObject+MJClass.m in Sources */,
+				4F775AC42A4ABEF900D298C9 /* AutoToolColor.m in Sources */,
+				4F775AAA2A4A920C00D298C9 /* NSString+MJExtension.m in Sources */,
+				4F2D17442940993000BC1BF3 /* AutoToolCreatCodeLine.m in Sources */,
+				4F775A8B2A4A8A7200D298C9 /* AutoToolViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F2D17362940793C00BC1BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F2D17372940793C00BC1BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F2D17392940793C00BC1BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F2D173A2940793C00BC1BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F2D172C2940793C00BC1BF3 /* Build configuration list for PBXProject "AutoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2D17362940793C00BC1BF3 /* Debug */,
+				4F2D17372940793C00BC1BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F2D17382940793C00BC1BF3 /* Build configuration list for PBXNativeTarget "AutoTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F2D17392940793C00BC1BF3 /* Debug */,
+				4F2D173A2940793C00BC1BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F2D17292940793C00BC1BF3 /* Project object */;
+}

@@ -1,0 +1,218 @@
+{
+  "CWJStoreSegmentView": {
+    "cls": "UIView",
+    "name": "",
+    "bgColor": "",
+    "cornerRadius": "",
+    "masksToBounds": false,
+    "borderColor": "",
+    "borderWidth": "",
+    "subView": [
+      {
+        "cls": "UILabel",
+        "name": "indexLabel",
+        "textColor": "",
+        "font": "",
+        "text": "",
+        "bgColor": "",
+        "linesNumberZero": false,
+        "cornerRadius": "",
+        "masksToBounds": false,
+        "borderColor": "",
+        "borderWidth": "",
+        "alignmentLeft": false,
+        "alignmentCenter": false,
+        "compress": false,
+        "hugging": false,
+        "layout": {
+          "top": false,
+          "left": false,
+          "bottom": false,
+          "right": false,
+          "width": false,
+          "height": false,
+          "centerX": true,
+          "centerY": true,
+          "edges": false,
+          "size": false
+        }
+      }
+    ],
+    "layout": {
+      "top": false,
+      "left": false,
+      "bottom": false,
+      "right": false,
+      "width": false,
+      "height": false,
+      "centerX": false,
+      "centerY": false,
+      "edges": false,
+      "size": false
+    }
+  },
+  "_控件库，供复制粘贴用_ignore_________________________________________________________________": {
+    "newVC": {
+      "cls": "UIViewController",
+      "subView": [
+      ]
+    },
+    "UIView": {
+      "cls": "UIView",
+      "name": "",
+      "bgColor": "",
+      "cornerRadius": "",
+      "masksToBounds": false,
+      "borderColor": "",
+      "borderWidth": "",
+      "subView": [
+      ],
+      "layout": {
+        "top": false,
+        "left": false,
+        "bottom": false,
+        "right": false,
+        "width": false,
+        "height": false,
+        "centerX": false,
+        "centerY": false,
+        "edges": false,
+        "size": false
+      }
+    },
+    "UILabel": {
+      "cls": "UILabel",
+      "name": "",
+      "textColor": "",
+      "font": "",
+      "text": "",
+      "bgColor": "",
+      "linesNumberZero": false,
+      "cornerRadius": "",
+      "masksToBounds": false,
+      "borderColor": "",
+      "borderWidth": "",
+      "alignmentLeft": false,
+      "alignmentCenter": false,
+      "compress": false,
+      "hugging": false,
+      "layout": {
+        "top": false,
+        "left": false,
+        "bottom": false,
+        "right": false,
+        "width": false,
+        "height": false,
+        "centerX": false,
+        "centerY": false,
+        "edges": false,
+        "size": false
+      }
+    },
+    "UIButton": {
+      "cls": "UIButton",
+      "name": "",
+      "SELMethod": false,
+      "textColor": "",
+      "font": "",
+      "text": "",
+      "image": "",
+      "backgroundImage": "",
+      "bgColor": "",
+      "cornerRadius": "",
+      "masksToBounds": false,
+      "borderColor": "",
+      "borderWidth": "",
+      "alignmentLeft": false,
+      "alignmentCenter": false,
+      "compress": false,
+      "hugging": false,
+      "layout": {
+        "top": false,
+        "left": false,
+        "bottom": false,
+        "right": false,
+        "width": false,
+        "height": false,
+        "centerX": false,
+        "centerY": false,
+        "edges": false,
+        "size": false
+      }
+    },
+    "UIImageView": {
+      "cls": "UIImageView",
+      "name": "",
+      "image": "",
+      "bgColor": "",
+      "cornerRadius": "",
+      "masksToBounds": false,
+      "borderColor": "",
+      "borderWidth": "",
+      "layout": {
+        "top": false,
+        "left": false,
+        "bottom": false,
+        "right": false,
+        "width": false,
+        "height": false,
+        "centerX": false,
+        "centerY": false,
+        "edges": false,
+        "size": false
+      }
+    },
+    "UITableView": {
+      "cls": "UITableView",
+      "name": "tableView",
+      "bgColor": "",
+      "hideVerticalScrollIndicator": false,
+      "hideHorizontalScrollIndicator": false,
+      "layout": {
+        "top": false,
+        "left": false,
+        "bottom": false,
+        "right": false,
+        "width": false,
+        "height": false,
+        "centerX": false,
+        "centerY": false,
+        "edges": false,
+        "size": false
+      },
+      "creatCells": {
+      }
+    },
+    "UITableViewCell": {
+      "cls": "UITableViewCell",
+      "subView": [
+      ]
+    },
+    "UICollectionView": {
+      "cls": "UICollectionView",
+      "name": "collectionView",
+      "bgColor": "",
+      "hideVerticalScrollIndicator": false,
+      "hideHorizontalScrollIndicator": false,
+      "layout": {
+        "top": false,
+        "left": false,
+        "bottom": false,
+        "right": false,
+        "width": false,
+        "height": false,
+        "centerX": false,
+        "centerY": false,
+        "edges": false,
+        "size": false
+      },
+      "creatCells": {
+      }
+    },
+    "UICollectionViewCell": {
+      "cls": "UICollectionViewCell",
+      "subView": [
+      ]
+    }
+  }
+}
